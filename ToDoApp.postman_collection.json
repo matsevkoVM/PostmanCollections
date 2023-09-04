@@ -27,7 +27,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/api/users/todos/1",
+							"raw": "http://localhost:9091/api/users/todos/7",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -37,7 +37,7 @@
 								"api",
 								"users",
 								"todos",
-								"1"
+								"7"
 							]
 						}
 					},
@@ -49,6 +49,16 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJuaWNrQG1haWwuY29tIiwicm9sZSI6IlJPTEVfVVNFUiIsImlzcyI6Im15and0dG9rZW4iLCJpYXQiOjE2OTM4MjQ1MzEsImV4cCI6MTY5MzgyNjMzMX0.AxSYHbH45_ARHtcUvUqFDGVTJKdxYconIykrxT1i_TQeQH49vMgnZ7BZMPeJ1S_HhuGoq0_oWF7N_xSH6bNUgQ",
+									"type": "string"
+								}
+							]
+						},
 						"method": "GET",
 						"header": [],
 						"body": {
@@ -94,7 +104,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/api/users/3/todos",
+							"raw": "http://localhost:9091/api/users/1/todos",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -103,7 +113,7 @@
 							"path": [
 								"api",
 								"users",
-								"3",
+								"1",
 								"todos"
 							]
 						}
@@ -118,7 +128,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtaWtlQG1haWwuY29tIiwicm9sZSI6IlJPTEVfQURNSU4iLCJpc3MiOiJteWp3dHRva2VuIiwiaWF0IjoxNjkzMzg5Mjk5LCJleHAiOjE2OTM0NzU2OTl9._TNsrYkibJw0FjgPkjB5-JPTDyJk0dUyuA5pObiPJLAYHInX0GvEPblb4rFE636Wyljg4Unp8KK0FjTovODP-w",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtaWtlQG1haWwuY29tIiwicm9sZSI6IlJPTEVfQURNSU4iLCJpc3MiOiJteWp3dHRva2VuIiwiaWF0IjoxNjkzODEyMDU5LCJleHAiOjE2OTM4MTM4NTl9.6aP0TKKsaf2lpEWLspW6OYJ3epiLVVXgAg-gufviJOxFIbt6MSWh9vrKAjdt1o3LKuemAhexc2IA4b7eceA1_Q",
 									"type": "string"
 								}
 							]
@@ -126,7 +136,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9091/api/users/todos/10",
+							"raw": "http://localhost:9091/api/users/todos/8",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -136,7 +146,7 @@
 								"api",
 								"users",
 								"todos",
-								"10"
+								"8"
 							]
 						}
 					},
@@ -150,7 +160,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtaWtlQG1haWwuY29tIiwicm9sZSI6IlJPTEVfQURNSU4iLCJpc3MiOiJteWp3dHRva2VuIiwiaWF0IjoxNjkzMzg5Mjk5LCJleHAiOjE2OTM0NzU2OTl9._TNsrYkibJw0FjgPkjB5-JPTDyJk0dUyuA5pObiPJLAYHInX0GvEPblb4rFE636Wyljg4Unp8KK0FjTovODP-w",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtaWtlQG1haWwuY29tIiwicm9sZSI6IlJPTEVfQURNSU4iLCJpc3MiOiJteWp3dHRva2VuIiwiaWF0IjoxNjkzODEyMDU5LCJleHAiOjE2OTM4MTM4NTl9.6aP0TKKsaf2lpEWLspW6OYJ3epiLVVXgAg-gufviJOxFIbt6MSWh9vrKAjdt1o3LKuemAhexc2IA4b7eceA1_Q",
 									"type": "string"
 								}
 							]
@@ -186,6 +196,16 @@
 				{
 					"name": "Create New ToDo",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJub3JhQG1haWwuY29tIiwicm9sZSI6IlJPTEVfVVNFUiIsImlzcyI6Im15and0dG9rZW4iLCJpYXQiOjE2OTM4MTE5NzIsImV4cCI6MTY5MzgxMzc3Mn0.9ROwTzl5QNqWidHnO4gcL-q1jjimsT3qINgSXqswWqpJcwoUVgwMEU_Q61p8pCUuXew-A0gubnhYC4amA2Vpbg",
+									"type": "string"
+								}
+							]
+						},
 						"method": "POST",
 						"header": [],
 						"body": {
@@ -220,7 +240,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9091/api/users/todos/2/collaborators",
+							"raw": "http://localhost:9091/api/users/todos/1/collaborators",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -230,7 +250,7 @@
 								"api",
 								"users",
 								"todos",
-								"2",
+								"1",
 								"collaborators"
 							]
 						}
@@ -288,7 +308,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9091/api/users/todos/2/collaborators/remove/3",
+							"raw": "http://localhost:9091/api/users/todos/1/collaborators/remove/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -298,10 +318,10 @@
 								"api",
 								"users",
 								"todos",
-								"2",
+								"1",
 								"collaborators",
 								"remove",
-								"3"
+								"2"
 							]
 						}
 					},
@@ -315,11 +335,21 @@
 				{
 					"name": "CreateTask",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtaWtlQG1haWwuY29tIiwicm9sZSI6IlJPTEVfQURNSU4iLCJpc3MiOiJteWp3dHRva2VuIiwiaWF0IjoxNjkzODQwMzI3LCJleHAiOjE2OTM4NDIxMjd9.lhTJWHYiKkP3mJxPEkILx0KLYY-POOHcVAIkIifxTPjxPzxun1ETXmS27pospeMPwGOrtwa-7fDAs7k6kdItgA",
+									"type": "string"
+								}
+							]
+						},
 						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"Just created Task #1\",\r\n    \"priority\": \"HIGH\"\r\n}",
+							"raw": "{\r\n    \"name\": \"Just created Task #21\",\r\n    \"priority\": \"HIGH\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -327,7 +357,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/api/users/1/todos/1/tasks",
+							"raw": "http://localhost:9091/api/users/2/todos/4/tasks",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -336,9 +366,9 @@
 							"path": [
 								"api",
 								"users",
-								"1",
+								"2",
 								"todos",
-								"1",
+								"4",
 								"tasks"
 							]
 						}
@@ -348,10 +378,20 @@
 				{
 					"name": "Read Task",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtaWtlQG1haWwuY29tIiwicm9sZSI6IlJPTEVfQURNSU4iLCJpc3MiOiJteWp3dHRva2VuIiwiaWF0IjoxNjkzODI2MTM3LCJleHAiOjE2OTM4Mjc5Mzd9.5aFE-0md-qAvCvaz1kz0UNwDQaICiKr_hTUO4ByjSxy6oJrF0jirWiT6C1pRQVQi8WDkg8pqDIju885sZXNBCg",
+									"type": "string"
+								}
+							]
+						},
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9091/api/users/1/todos/1/tasks/1",
+							"raw": "http://localhost:9091/api/users/3/todos/7/tasks/10",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -360,11 +400,11 @@
 							"path": [
 								"api",
 								"users",
-								"1",
+								"3",
 								"todos",
-								"1",
+								"7",
 								"tasks",
-								"1"
+								"10"
 							]
 						}
 					},
@@ -405,12 +445,22 @@
 					"response": []
 				},
 				{
-					"name": "Delete TAsk",
+					"name": "Delete Task",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtaWtlQG1haWwuY29tIiwicm9sZSI6IlJPTEVfQURNSU4iLCJpc3MiOiJteWp3dHRva2VuIiwiaWF0IjoxNjkzODM5NjQxLCJleHAiOjE2OTM4NDE0NDF9.Hs46AUu8n-eDyWJGOAOz8mWyiKtDGDtCPLD7J-GQl8t3JRORfERqoS1xKW4pBdL8kOW2qmQFRk58xmyAyz4UiQ",
+									"type": "string"
+								}
+							]
+						},
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9091/api/users/1/todos/1/tasks/1",
+							"raw": "http://localhost:9091/api/users/1/todos/1/tasks/3",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -423,7 +473,7 @@
 								"todos",
 								"1",
 								"tasks",
-								"1"
+								"3"
 							]
 						}
 					},
@@ -432,10 +482,20 @@
 				{
 					"name": "Get All Tasks",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtaWtlQG1haWwuY29tIiwicm9sZSI6IlJPTEVfQURNSU4iLCJpc3MiOiJteWp3dHRva2VuIiwiaWF0IjoxNjkzODM5NjQxLCJleHAiOjE2OTM4NDE0NDF9.Hs46AUu8n-eDyWJGOAOz8mWyiKtDGDtCPLD7J-GQl8t3JRORfERqoS1xKW4pBdL8kOW2qmQFRk58xmyAyz4UiQ",
+									"type": "string"
+								}
+							]
+						},
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9091/api/users/1/todos/2/tasks",
+							"raw": "http://localhost:9091/api/users/1/todos/7/tasks/all",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -446,8 +506,44 @@
 								"users",
 								"1",
 								"todos",
+								"7",
+								"tasks",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All ToDo's Tasks",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtaWtlQG1haWwuY29tIiwicm9sZSI6IlJPTEVfQURNSU4iLCJpc3MiOiJteWp3dHRva2VuIiwiaWF0IjoxNjkzODQwMzI3LCJleHAiOjE2OTM4NDIxMjd9.lhTJWHYiKkP3mJxPEkILx0KLYY-POOHcVAIkIifxTPjxPzxun1ETXmS27pospeMPwGOrtwa-7fDAs7k6kdItgA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9091/api/users/2/todos/4/tasks/by_todo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9091",
+							"path": [
+								"api",
+								"users",
 								"2",
-								"tasks"
+								"todos",
+								"4",
+								"tasks",
+								"by_todo"
 							]
 						}
 					},
@@ -461,10 +557,20 @@
 				{
 					"name": "Get User",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzbm9vcHlAZ21haWwuY29tIiwicm9sZSI6IlJPTEVfVVNFUiIsImlzcyI6Im15and0dG9rZW4iLCJpYXQiOjE2OTM1NTcyMjcsImV4cCI6MTY5MzU1OTAyN30.aIm0UkUlDch2CQVkwH8kW2PkXfYtV_dCwt-2lsklQjClM2MR_5uZmOCrKGpirSYsJwbKtkyqFbwfZqkF9iK0Sw",
+									"type": "string"
+								}
+							]
+						},
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9091/api/users/1",
+							"raw": "http://localhost:9091/api/users/4",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -473,7 +579,7 @@
 							"path": [
 								"api",
 								"users",
-								"1"
+								"4"
 							]
 						}
 					},
@@ -482,6 +588,16 @@
 				{
 					"name": "Get All Users",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtaWtlQG1haWwuY29tIiwicm9sZSI6IlJPTEVfQURNSU4iLCJpc3MiOiJteWp3dHRva2VuIiwiaWF0IjoxNjkzNTU4MTYwLCJleHAiOjE2OTM1NTk5NjB9.xd2V8UNNoSDm_vyntw6kS7DBloJTHw5EOSWVmdVo3AFXq-97CbhJ8W50NKebK4JFmfECow94QTc06GahNa7lfw",
+									"type": "string"
+								}
+							]
+						},
 						"method": "GET",
 						"header": [],
 						"url": {
@@ -502,11 +618,21 @@
 				{
 					"name": "Create New User",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJuaWNrQG1haWwuY29tIiwicm9sZSI6IlJPTEVfVVNFUiIsImlzcyI6Im15and0dG9rZW4iLCJpYXQiOjE2OTM4MjE4MDQsImV4cCI6MTY5MzgyMzYwNH0.ls-st6F5uCvTAbFUbYzDJp5Du8kSWj2UspzGdDoIJMrBjZzZuLTzh-Cx_xwj_UHkmuqkhSqVBAEC-3ea9MUncg",
+									"type": "string"
+								}
+							]
+						},
 						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"firstName\": \"Maks\",\r\n    \"lastName\": \"Fartushok\",\r\n    \"email\": \"maks@gmail.com\",\r\n    \"password\": \"Aa1Bcdef\",\r\n    \"role\": {\r\n        \"id\": 2,\r\n        \"name\": \"USER\"\r\n    }\r\n}",
+							"raw": "{\r\n    \"firstName\": \"Snoop\",\r\n    \"lastName\": \"Dog\",\r\n    \"email\": \"snoopy@gmail.com\",\r\n    \"password\": \"1111Qq\",\r\n    \"role\": {\r\n        \"id\": 2,\r\n        \"name\": \"USER\"\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -536,7 +662,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJuaWNrQG1haWwuY29tIiwicm9sZSI6IlJPTEVfVVNFUiIsImlzcyI6Im15and0dG9rZW4iLCJpYXQiOjE2OTMzODkwNTAsImV4cCI6MTY5MzQ3NTQ1MH0.zZ1BdgRv2nwetbhNNAIB9D6MJ8GYp0kUVYLuQsfhK81Gt7Cw8_fUMT1Nm5aLB5R4W95zmYXiH0AfQZpzfkcjcw",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtaWtlQG1haWwuY29tIiwicm9sZSI6IlJPTEVfQURNSU4iLCJpc3MiOiJteWp3dHRva2VuIiwiaWF0IjoxNjkzNTY0MjY3LCJleHAiOjE2OTM1NjYwNjd9.ysZXcecwnEiAEHrRtm2kKSz8Bd8F6V6jWp48nTRAmIySl09LIy_xVLah-DM8OV94h_LsjcUyVi6rZnOOGBvTwA",
 									"type": "string"
 								}
 							]
@@ -545,7 +671,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"firstName\": \"Maksnew\",\r\n    \"lastName\": \"Fartushoknew\",\r\n    \"email\": \"maksnew@gmail.com\",\r\n    \"password\": \"Aa1Bcdef\",\r\n    \"role\": {\r\n        \"id\": 1,\r\n        \"name\": \"ADMIN\"\r\n    }\r\n}",
+							"raw": "{\r\n    \"firstName\": \"Ed\",\r\n    \"lastName\": \"Shiron\",\r\n    \"email\": \"eddy@gmail.com\",\r\n    \"password\": \"Aa1Bcdef\",\r\n    \"role\": {\r\n        \"id\": 1,\r\n        \"name\": \"USER\"\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -553,7 +679,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/api/users/5",
+							"raw": "http://localhost:9091/api/users/4",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -562,7 +688,7 @@
 							"path": [
 								"api",
 								"users",
-								"5"
+								"4"
 							]
 						}
 					},
@@ -576,7 +702,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJuaWNrQG1haWwuY29tIiwicm9sZSI6IlJPTEVfVVNFUiIsImlzcyI6Im15and0dG9rZW4iLCJpYXQiOjE2OTMzODkwNTAsImV4cCI6MTY5MzQ3NTQ1MH0.zZ1BdgRv2nwetbhNNAIB9D6MJ8GYp0kUVYLuQsfhK81Gt7Cw8_fUMT1Nm5aLB5R4W95zmYXiH0AfQZpzfkcjcw",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzbm9vcHlAZ21haWwuY29tIiwicm9sZSI6IlJPTEVfVVNFUiIsImlzcyI6Im15and0dG9rZW4iLCJpYXQiOjE2OTM1NTcyMjcsImV4cCI6MTY5MzU1OTAyN30.aIm0UkUlDch2CQVkwH8kW2PkXfYtV_dCwt-2lsklQjClM2MR_5uZmOCrKGpirSYsJwbKtkyqFbwfZqkF9iK0Sw",
 									"type": "string"
 								}
 							]
@@ -584,7 +710,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9091/api/users/5",
+							"raw": "http://localhost:9091/api/users/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -593,7 +719,7 @@
 							"path": [
 								"api",
 								"users",
-								"5"
+								"1"
 							]
 						}
 					},
@@ -609,7 +735,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtaWtlQG1haWwuY29tIiwicm9sZSI6IlJPTEVfQURNSU4iLCJpc3MiOiJteWp3dHRva2VuIiwiaWF0IjoxNjkzMzg4NDI3LCJleHAiOjE2OTM0NzQ4Mjd9._gP3wd0NEzC2w3Sqcef9lqLcoYZHl0xSY7NBJqia82jEbQALVcwJp1x9Ps7nEI7mJchoSscSOsvvYHI1r4BRBA",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtaWtlQG1haWwuY29tIiwicm9sZSI6IlJPTEVfQURNSU4iLCJpc3MiOiJteWp3dHRva2VuIiwiaWF0IjoxNjkzNTY0MjY3LCJleHAiOjE2OTM1NjYwNjd9.ysZXcecwnEiAEHrRtm2kKSz8Bd8F6V6jWp48nTRAmIySl09LIy_xVLah-DM8OV94h_LsjcUyVi6rZnOOGBvTwA",
 							"type": "string"
 						}
 					]
