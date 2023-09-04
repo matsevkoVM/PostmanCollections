@@ -10,7 +10,7 @@
 			"name": "ToDos",
 			"item": [
 				{
-					"name": "Get/get all ToDos",
+					"name": "GetToDo",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -38,6 +38,39 @@
 								"users",
 								"todos",
 								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all ToDos",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Updated ToDo\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9091/api/users/todos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9091",
+							"path": [
+								"api",
+								"users",
+								"todos"
 							]
 						}
 					},
